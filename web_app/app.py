@@ -92,7 +92,7 @@ def get_main_data():
 
             image = imgproc.loadImage(upload_form.receipt_image.data)
             
-            Params.FOODS_DF = get_food_items_using_PyTorch(image, "./end2end/weights/craft_mlt_25k.pth", "./end2end/weights/craft_refiner_CTW1500.pth" )
+            Params.FOODS_DF = get_food_items_using_PyTorch(image, "/app/web_app/end2end/weights/craft_mlt_25k.pth", "/app/web_app/end2end/weights/craft_refiner_CTW1500.pth" )
 
             # when form is validated and submitted, go to entering individual people's details
             return redirect(url_for('people_details', restaurant=restaurant, date=date, count=num_friends))
