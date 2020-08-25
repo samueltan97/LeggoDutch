@@ -25,7 +25,7 @@ import file_utils
 import json
 import zipfile
 
-from end2end.CRAFT.craft import CRAFT
+from .craft import CRAFT
 
 from collections import OrderedDict
 def copyStateDict(state_dict):
