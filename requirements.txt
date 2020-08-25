@@ -21,3 +21,4 @@ imutils
 pytesseract
 tesseract
 gunicorn
+scikit-image
