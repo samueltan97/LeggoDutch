@@ -1,7 +1,7 @@
 from flask import Flask, render_template, url_for, redirect, current_app, request, flash
 from flask_sqlalchemy import SQLAlchemy
 import secrets
-from forms import UploadForm, PurchasePersonDetailsForm, PersonDetailForm
+from .forms import UploadForm, PurchasePersonDetailsForm, PersonDetailForm
 import os.path
 from os import path
 import time
@@ -9,16 +9,16 @@ import glob
 from PIL import Image
 import pandas as pd
 import json
-from twilio_message import send_message
+from .twilio_message import send_message
 
-import end2end
-import end2end.CRAFT
-from end2end.CRAFT import imgproc
-from end2end.end2end import text_main_engine
+import .end2end
+import .end2end.CRAFT
+from .end2end.CRAFT import imgproc
+from .end2end.end2end import text_main_engine
 
-import end2end.CRAFT
-from end2end.CRAFT import imgproc
-from end2end.end2end import text_main_engine
+import .end2end.CRAFT
+from .end2end.CRAFT import imgproc
+from .end2end.end2end import text_main_engine
 
 app = Flask(__name__)
 speech_key, service_region = "c87da06e1dfe4dd3b6e58fa41ec19c95", "eastus"
