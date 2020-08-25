@@ -22,3 +22,4 @@ pytesseract
 tesseract
 gunicorn
 scikit-image
+opencv-python
