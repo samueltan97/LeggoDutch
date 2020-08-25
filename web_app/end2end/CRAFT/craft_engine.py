@@ -122,7 +122,7 @@ def predict(image,
     # LinkRefiner
     refine_net = None
     if refine:
-        from end2end.CRAFT.refinenet import RefineNet
+        from .refinenet import RefineNet
         refine_net = RefineNet()
         print('Loading weights of refiner from checkpoint (' + refiner_model + ')')
         if cuda:
