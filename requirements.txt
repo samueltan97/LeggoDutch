@@ -15,8 +15,6 @@ SQLAlchemy==1.3.19
 twilio==6.45.0
 Werkzeug==1.0.1
 WTForms==2.3.3
-https://download.pytorch.org/whl/cpu/torch-1.3.1%2Bcpu-cp37-cp37m-linux_x86_64.whl
-https://download.pytorch.org/whl/cpu/torchvision-0.4.2%2Bcpu-cp37-cp37m-linux_x86_64.whl
 imutils
 pytesseract
 tesseract
