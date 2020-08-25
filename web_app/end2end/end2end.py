@@ -8,7 +8,6 @@ from end2end.CRAFT import craft_utils
 from end2end.CRAFT import imgproc
 from end2end.CRAFT import craft_engine
 
-import end2end.deep_recognition
 from end2end.deep_recognition import *
 from end2end.pyteserract_engine import recognize
 from end2end.preprocess_image import preprocess
