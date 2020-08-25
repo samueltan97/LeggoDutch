@@ -4,8 +4,6 @@ import cv2
 import re
 import torch
 
-import end2end
-import end2end.CRAFT
 from end2end.CRAFT import craft_utils
 from end2end.CRAFT import imgproc
 from end2end.CRAFT import craft_engine
