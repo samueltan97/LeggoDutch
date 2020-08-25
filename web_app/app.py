@@ -11,11 +11,6 @@ import pandas as pd
 import json
 from .twilio_message import send_message
 
-import .end2end.CRAFT
-from .end2end.CRAFT import imgproc
-from .end2end.end2end import text_main_engine
-
-import .end2end.CRAFT
 from .end2end.CRAFT import imgproc
 from .end2end.end2end import text_main_engine
 
